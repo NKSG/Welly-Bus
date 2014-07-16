@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8707E533197648DF00E54F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E532197648DF00E54F1E /* AppDelegate.swift */; };
+		8707E536197648DF00E54F1E /* WellyBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8707E534197648DF00E54F1E /* WellyBus.xcdatamodeld */; };
+		8707E538197648DF00E54F1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8707E537197648DF00E54F1E /* Images.xcassets */; };
+		8707E544197648DF00E54F1E /* WellyBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E543197648DF00E54F1E /* WellyBusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8707E53E197648DF00E54F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8707E525197648DF00E54F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8707E52C197648DF00E54F1E;
+			remoteInfo = WellyBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8707E52D197648DF00E54F1E /* WellyBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellyBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8707E531197648DF00E54F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8707E532197648DF00E54F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8707E535197648DF00E54F1E /* WellyBus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellyBus.xcdatamodel; sourceTree = "<group>"; };
+		8707E537197648DF00E54F1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8707E53D197648DF00E54F1E /* WellyBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellyBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8707E542197648DF00E54F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8707E543197648DF00E54F1E /* WellyBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellyBusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8707E52A197648DF00E54F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8707E53A197648DF00E54F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8707E524197648DF00E54F1E = {
+			isa = PBXGroup;
+			children = (
+				8707E52F197648DF00E54F1E /* WellyBus */,
+				8707E540197648DF00E54F1E /* WellyBusTests */,
+				8707E52E197648DF00E54F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8707E52E197648DF00E54F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8707E52D197648DF00E54F1E /* WellyBus.app */,
+				8707E53D197648DF00E54F1E /* WellyBusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8707E52F197648DF00E54F1E /* WellyBus */ = {
+			isa = PBXGroup;
+			children = (
+				8707E532197648DF00E54F1E /* AppDelegate.swift */,
+				8707E537197648DF00E54F1E /* Images.xcassets */,
+				8707E534197648DF00E54F1E /* WellyBus.xcdatamodeld */,
+				8707E530197648DF00E54F1E /* Supporting Files */,
+			);
+			path = WellyBus;
+			sourceTree = "<group>";
+		};
+		8707E530197648DF00E54F1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8707E531197648DF00E54F1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8707E540197648DF00E54F1E /* WellyBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				8707E543197648DF00E54F1E /* WellyBusTests.swift */,
+				8707E541197648DF00E54F1E /* Supporting Files */,
+			);
+			path = WellyBusTests;
+			sourceTree = "<group>";
+		};
+		8707E541197648DF00E54F1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8707E542197648DF00E54F1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8707E52C197648DF00E54F1E /* WellyBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8707E547197648DF00E54F1E /* Build configuration list for PBXNativeTarget "WellyBus" */;
+			buildPhases = (
+				8707E529197648DF00E54F1E /* Sources */,
+				8707E52A197648DF00E54F1E /* Frameworks */,
+				8707E52B197648DF00E54F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellyBus;
+			productName = WellyBus;
+			productReference = 8707E52D197648DF00E54F1E /* WellyBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8707E53C197648DF00E54F1E /* WellyBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8707E54A197648DF00E54F1E /* Build configuration list for PBXNativeTarget "WellyBusTests" */;
+			buildPhases = (
+				8707E539197648DF00E54F1E /* Sources */,
+				8707E53A197648DF00E54F1E /* Frameworks */,
+				8707E53B197648DF00E54F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8707E53F197648DF00E54F1E /* PBXTargetDependency */,
+			);
+			name = WellyBusTests;
+			productName = WellyBusTests;
+			productReference = 8707E53D197648DF00E54F1E /* WellyBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8707E525197648DF00E54F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Chris;
+				TargetAttributes = {
+					8707E52C197648DF00E54F1E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8707E53C197648DF00E54F1E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8707E52C197648DF00E54F1E;
+					};
+				};
+			};
+			buildConfigurationList = 8707E528197648DF00E54F1E /* Build configuration list for PBXProject "WellyBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8707E524197648DF00E54F1E;
+			productRefGroup = 8707E52E197648DF00E54F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8707E52C197648DF00E54F1E /* WellyBus */,
+				8707E53C197648DF00E54F1E /* WellyBusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8707E52B197648DF00E54F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8707E538197648DF00E54F1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8707E53B197648DF00E54F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8707E529197648DF00E54F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8707E536197648DF00E54F1E /* WellyBus.xcdatamodeld in Sources */,
+				8707E533197648DF00E54F1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8707E539197648DF00E54F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8707E544197648DF00E54F1E /* WellyBusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8707E53F197648DF00E54F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8707E52C197648DF00E54F1E /* WellyBus */;
+			targetProxy = 8707E53E197648DF00E54F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8707E545197648DF00E54F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8707E546197648DF00E54F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8707E548197648DF00E54F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WellyBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8707E549197648DF00E54F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WellyBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8707E54B197648DF00E54F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WellyBus.app/WellyBus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WellyBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8707E54C197648DF00E54F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WellyBus.app/WellyBus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WellyBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8707E528197648DF00E54F1E /* Build configuration list for PBXProject "WellyBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8707E545197648DF00E54F1E /* Debug */,
+				8707E546197648DF00E54F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8707E547197648DF00E54F1E /* Build configuration list for PBXNativeTarget "WellyBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8707E548197648DF00E54F1E /* Debug */,
+				8707E549197648DF00E54F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8707E54A197648DF00E54F1E /* Build configuration list for PBXNativeTarget "WellyBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8707E54B197648DF00E54F1E /* Debug */,
+				8707E54C197648DF00E54F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8707E534197648DF00E54F1E /* WellyBus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8707E535197648DF00E54F1E /* WellyBus.xcdatamodel */,
+			);
+			currentVersion = 8707E535197648DF00E54F1E /* WellyBus.xcdatamodel */;
+			path = WellyBus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8707E525197648DF00E54F1E /* Project object */;
+}
