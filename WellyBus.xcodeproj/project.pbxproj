@@ -11,6 +11,14 @@
 		8707E536197648DF00E54F1E /* WellyBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8707E534197648DF00E54F1E /* WellyBus.xcdatamodeld */; };
 		8707E538197648DF00E54F1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8707E537197648DF00E54F1E /* Images.xcassets */; };
 		8707E544197648DF00E54F1E /* WellyBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E543197648DF00E54F1E /* WellyBusTests.swift */; };
+		8707E54E1976493100E54F1E /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E54D1976493100E54F1E /* Entry.swift */; };
+		8707E5501976493700E54F1E /* AllStopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E54F1976493700E54F1E /* AllStopsViewController.swift */; };
+		8707E5521976493D00E54F1E /* StopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E5511976493D00E54F1E /* StopViewController.swift */; };
+		8707E5541976494800E54F1E /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E5531976494800E54F1E /* BusStop.swift */; };
+		8707E5561976494E00E54F1E /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E5551976494E00E54F1E /* Arrival.swift */; };
+		8707E5581976495300E54F1E /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E5571976495300E54F1E /* Set.swift */; };
+		8707E55A1976496200E54F1E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E5591976496200E54F1E /* Route.swift */; };
+		8707E55C1976497100E54F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8707E55B1976497100E54F1E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,14 @@
 		8707E53D197648DF00E54F1E /* WellyBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellyBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8707E542197648DF00E54F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8707E543197648DF00E54F1E /* WellyBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellyBusTests.swift; sourceTree = "<group>"; };
+		8707E54D1976493100E54F1E /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		8707E54F1976493700E54F1E /* AllStopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllStopsViewController.swift; sourceTree = "<group>"; };
+		8707E5511976493D00E54F1E /* StopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopViewController.swift; sourceTree = "<group>"; };
+		8707E5531976494800E54F1E /* BusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		8707E5551976494E00E54F1E /* Arrival.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrival.swift; sourceTree = "<group>"; };
+		8707E5571976495300E54F1E /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		8707E5591976496200E54F1E /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		8707E55B1976497100E54F1E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				8707E532197648DF00E54F1E /* AppDelegate.swift */,
+				8707E54D1976493100E54F1E /* Entry.swift */,
+				8707E54F1976493700E54F1E /* AllStopsViewController.swift */,
+				8707E5511976493D00E54F1E /* StopViewController.swift */,
+				8707E5531976494800E54F1E /* BusStop.swift */,
+				8707E5551976494E00E54F1E /* Arrival.swift */,
+				8707E5571976495300E54F1E /* Set.swift */,
+				8707E5591976496200E54F1E /* Route.swift */,
+				8707E55B1976497100E54F1E /* Main.storyboard */,
 				8707E537197648DF00E54F1E /* Images.xcassets */,
 				8707E534197648DF00E54F1E /* WellyBus.xcdatamodeld */,
 				8707E530197648DF00E54F1E /* Supporting Files */,
@@ -186,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8707E538197648DF00E54F1E /* Images.xcassets in Resources */,
+				8707E55C1976497100E54F1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8707E55A1976496200E54F1E /* Route.swift in Sources */,
+				8707E5581976495300E54F1E /* Set.swift in Sources */,
+				8707E5541976494800E54F1E /* BusStop.swift in Sources */,
+				8707E5501976493700E54F1E /* AllStopsViewController.swift in Sources */,
+				8707E5521976493D00E54F1E /* StopViewController.swift in Sources */,
+				8707E5561976494E00E54F1E /* Arrival.swift in Sources */,
+				8707E54E1976493100E54F1E /* Entry.swift in Sources */,
 				8707E536197648DF00E54F1E /* WellyBus.xcdatamodeld in Sources */,
 				8707E533197648DF00E54F1E /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WellyBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -321,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WellyBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
