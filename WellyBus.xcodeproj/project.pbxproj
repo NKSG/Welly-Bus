@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87019D3919794C9C00BEB6DA /* UserStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87019D3819794C9C00BEB6DA /* UserStuff.swift */; };
+		87019D3B19794EB900BEB6DA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87019D3A19794EB900BEB6DA /* DashboardViewController.swift */; };
 		8707E533197648DF00E54F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E532197648DF00E54F1E /* AppDelegate.swift */; };
 		8707E536197648DF00E54F1E /* WellyBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8707E534197648DF00E54F1E /* WellyBus.xcdatamodeld */; };
 		8707E538197648DF00E54F1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8707E537197648DF00E54F1E /* Images.xcassets */; };
@@ -19,6 +21,13 @@
 		8707E5581976495300E54F1E /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E5571976495300E54F1E /* Set.swift */; };
 		8707E55A1976496200E54F1E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707E5591976496200E54F1E /* Route.swift */; };
 		8707E55C1976497100E54F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8707E55B1976497100E54F1E /* Main.storyboard */; };
+		873F428A19788FB8007C4DA6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 873F428919788FB8007C4DA6 /* libxml2.dylib */; };
+		873F42931978926B007C4DA6 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 873F428E1978926B007C4DA6 /* TFHpple.m */; };
+		873F42941978926B007C4DA6 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 873F42901978926B007C4DA6 /* TFHppleElement.m */; };
+		873F42951978926B007C4DA6 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 873F42921978926B007C4DA6 /* XPathQuery.m */; };
+		873F4297197896A0007C4DA6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873F4296197896A0007C4DA6 /* Parser.swift */; };
+		87560D0319795EA200209E1C /* myArrivalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87560D0219795EA200209E1C /* myArrivalCell.swift */; };
+		879110D51978E287003D76FE /* myRouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879110D41978E287003D76FE /* myRouteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87019D3819794C9C00BEB6DA /* UserStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStuff.swift; sourceTree = "<group>"; };
+		87019D3A19794EB900BEB6DA /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		8707E52D197648DF00E54F1E /* WellyBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellyBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8707E531197648DF00E54F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8707E532197648DF00E54F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +59,17 @@
 		8707E5571976495300E54F1E /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		8707E5591976496200E54F1E /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		8707E55B1976497100E54F1E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		873F428919788FB8007C4DA6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		873F428C1978926A007C4DA6 /* WellyBus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WellyBus-Bridging-Header.h"; sourceTree = "<group>"; };
+		873F428D1978926B007C4DA6 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = ../../../../../../Downloads/HTMLParsing/HTMLParsing/TFHpple.h; sourceTree = "<group>"; };
+		873F428E1978926B007C4DA6 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = ../../../../../../Downloads/HTMLParsing/HTMLParsing/TFHpple.m; sourceTree = "<group>"; };
+		873F428F1978926B007C4DA6 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = ../../../../../../Downloads/HTMLParsing/HTMLParsing/TFHppleElement.h; sourceTree = "<group>"; };
+		873F42901978926B007C4DA6 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = ../../../../../../Downloads/HTMLParsing/HTMLParsing/TFHppleElement.m; sourceTree = "<group>"; };
+		873F42911978926B007C4DA6 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = ../../../../../../Downloads/HTMLParsing/HTMLParsing/XPathQuery.h; sourceTree = "<group>"; };
+		873F42921978926B007C4DA6 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = ../../../../../../Downloads/HTMLParsing/HTMLParsing/XPathQuery.m; sourceTree = "<group>"; };
+		873F4296197896A0007C4DA6 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		87560D0219795EA200209E1C /* myArrivalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myArrivalCell.swift; sourceTree = "<group>"; };
+		879110D41978E287003D76FE /* myRouteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myRouteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873F428A19788FB8007C4DA6 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +94,7 @@
 		8707E524197648DF00E54F1E = {
 			isa = PBXGroup;
 			children = (
+				873F428919788FB8007C4DA6 /* libxml2.dylib */,
 				8707E52F197648DF00E54F1E /* WellyBus */,
 				8707E540197648DF00E54F1E /* WellyBusTests */,
 				8707E52E197648DF00E54F1E /* Products */,
@@ -92,11 +116,12 @@
 				8707E532197648DF00E54F1E /* AppDelegate.swift */,
 				8707E54D1976493100E54F1E /* Entry.swift */,
 				8707E54F1976493700E54F1E /* AllStopsViewController.swift */,
+				87019D3A19794EB900BEB6DA /* DashboardViewController.swift */,
 				8707E5511976493D00E54F1E /* StopViewController.swift */,
-				8707E5531976494800E54F1E /* BusStop.swift */,
-				8707E5551976494E00E54F1E /* Arrival.swift */,
-				8707E5571976495300E54F1E /* Set.swift */,
-				8707E5591976496200E54F1E /* Route.swift */,
+				8786C2F019794C4E004D59B5 /* Model */,
+				879110D41978E287003D76FE /* myRouteCell.swift */,
+				87560D0219795EA200209E1C /* myArrivalCell.swift */,
+				873F428B19789245007C4DA6 /* hpple */,
 				8707E55B1976497100E54F1E /* Main.storyboard */,
 				8707E537197648DF00E54F1E /* Images.xcassets */,
 				8707E534197648DF00E54F1E /* WellyBus.xcdatamodeld */,
@@ -128,6 +153,33 @@
 				8707E542197648DF00E54F1E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873F428B19789245007C4DA6 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				873F428D1978926B007C4DA6 /* TFHpple.h */,
+				873F428E1978926B007C4DA6 /* TFHpple.m */,
+				873F428F1978926B007C4DA6 /* TFHppleElement.h */,
+				873F42901978926B007C4DA6 /* TFHppleElement.m */,
+				873F42911978926B007C4DA6 /* XPathQuery.h */,
+				873F42921978926B007C4DA6 /* XPathQuery.m */,
+				873F428C1978926A007C4DA6 /* WellyBus-Bridging-Header.h */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		8786C2F019794C4E004D59B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8707E5591976496200E54F1E /* Route.swift */,
+				8707E5531976494800E54F1E /* BusStop.swift */,
+				8707E5551976494E00E54F1E /* Arrival.swift */,
+				8707E5571976495300E54F1E /* Set.swift */,
+				87019D3819794C9C00BEB6DA /* UserStuff.swift */,
+				873F4296197896A0007C4DA6 /* Parser.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,13 +282,21 @@
 			files = (
 				8707E55A1976496200E54F1E /* Route.swift in Sources */,
 				8707E5581976495300E54F1E /* Set.swift in Sources */,
+				87019D3919794C9C00BEB6DA /* UserStuff.swift in Sources */,
 				8707E5541976494800E54F1E /* BusStop.swift in Sources */,
 				8707E5501976493700E54F1E /* AllStopsViewController.swift in Sources */,
+				873F4297197896A0007C4DA6 /* Parser.swift in Sources */,
+				879110D51978E287003D76FE /* myRouteCell.swift in Sources */,
 				8707E5521976493D00E54F1E /* StopViewController.swift in Sources */,
+				873F42931978926B007C4DA6 /* TFHpple.m in Sources */,
 				8707E5561976494E00E54F1E /* Arrival.swift in Sources */,
 				8707E54E1976493100E54F1E /* Entry.swift in Sources */,
 				8707E536197648DF00E54F1E /* WellyBus.xcdatamodeld in Sources */,
 				8707E533197648DF00E54F1E /* AppDelegate.swift in Sources */,
+				873F42951978926B007C4DA6 /* XPathQuery.m in Sources */,
+				87560D0319795EA200209E1C /* myArrivalCell.swift in Sources */,
+				873F42941978926B007C4DA6 /* TFHppleElement.m in Sources */,
+				87019D3B19794EB900BEB6DA /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +353,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					$SDKROOT/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WellyBus/hpple/WellyBus-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -329,9 +395,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					$SDKROOT/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WellyBus/hpple/WellyBus-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -341,10 +413,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WellyBus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WellyBus/WellyBus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -353,10 +428,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WellyBus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WellyBus/WellyBus-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +492,7 @@
 				8707E549197648DF00E54F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8707E54A197648DF00E54F1E /* Build configuration list for PBXNativeTarget "WellyBusTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +501,7 @@
 				8707E54C197648DF00E54F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
